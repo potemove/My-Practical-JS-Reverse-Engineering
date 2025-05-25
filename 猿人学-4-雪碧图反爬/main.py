@@ -158,7 +158,7 @@ for i in range(1, 6):
     }
     response = requests.get(url, headers=headers, cookies=cookies, params=params, verify=False)
     res_json = response.json()
-    print(response.content)
+    # print(response.content)
     key = res_json["key"]
     value = res_json["value"]
     j_key = get_j_key(key, value)
