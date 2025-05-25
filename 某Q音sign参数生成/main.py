@@ -1,4 +1,4 @@
-// Python客户端，通过访问Node服务端获取加密参数，进行请求
+# Python客户端，通过访问Node服务端获取加密参数，进行请求
 
 import requests
 
